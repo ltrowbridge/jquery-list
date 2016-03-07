@@ -1,0 +1,123 @@
+html {
+    margin: 0;
+    padding: 0;
+	box-sizing: border-box; /*Setting box-sizing: border-box; makes sure that the padding of a box is not added to its width. This means that you can set the width of a box to (for example) 100px and add a padding of 10px, and that padding will not affect the width. If you would not use box-sizing: border-box, then in this case the box would end up with a width of 120px (100px + 10 px on the left side + 10 px on the right side). It is very important that we always use box-sizing: border-box in order to avoid problems with our layouts.*/
+
+}
+
+body {
+    /*background-color: LightGray;*/
+    font-family: 'PT Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #F89406;
+    height: 25rem;
+    padding: 10px 10px 0px 10px;
+    margin-bottom: 0;
+}
+
+/*Title Box Styles in the Header*/
+.box-logo {
+    width:40%;
+    float: left;
+    margin-top: 4em;
+}
+.box-img {
+    float: right;
+    width: 50%; 
+    height: 400px;
+    overflow: hidden; 
+}
+
+
+header h2 {
+    color: #fff;
+    font-size: 1.4em;
+    margin-bottom: 10em;
+}
+
+
+.logo {
+    width: 455px;
+    height: 143px;
+    
+}
+
+.checkmark {
+    height:25px;
+}
+.xmark {
+    height:25px;
+}
+
+.stroked{ /*Controls the jquery strike through on the check button*/
+    text-decoration: line-through; 
+}
+    /*------------REUSEABLE COMPONENTS-----------*/
+.row {
+   max-width: 1140px;
+   margin: 0 auto;
+  
+}
+
+section {
+    padding: 40px 0;  /*Defines padding for each section on the page*/
+}
+
+h2 {
+    color: #F89406;
+    font-size: 1.6em;
+}
+
+fieldset {
+     border: 0;
+     float: left;
+     width: 60%;
+}
+
+.icon {
+    width: 20px;
+    height: 19px;
+} 
+
+/*------------END-----------*/
+
+
+    /*--------------GLOBAL LINK STYLES------------*/
+/* unvisited link */
+a:link {
+    color: #2ecc71;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #2ecc71;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #141819;
+    text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+    color: #2ecc71;
+    text-decoration: none;
+}
+
+    /*--------------END GLOBAL LINK STYLES------------*/
+
+
+footer {
+    text-align: center;
+    background-color: #273d52;
+    color: #fff;
+    padding: 40px 0; 
+}
+
